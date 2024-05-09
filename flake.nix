@@ -22,7 +22,6 @@
             shellHook = ''
             clear
             echo "Java environment activated" | ${pkgs.lolcat}/bin/lolcat
-            exec zsh
             '';
           };
     };
